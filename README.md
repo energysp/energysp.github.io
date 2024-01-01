@@ -27,9 +27,9 @@ We encourage researchers and experts in the field of cybersecurity energy system
 
 Topics of interest include, but are not limited to, the following:
 
--Cryptographical solutions, secure key management, authentication, provenance, and access control for smart energy systems
--Cybersecurity of distributed energy resources and IoT devices
--Security analysis of energy management systems and grid controlling systems 
+- Cryptographical solutions, secure key management, authentication, provenance, and access control for smart energy systems
+- Cybersecurity of distributed energy resources and IoT devices
+- Security analysis of energy management systems and grid controlling systems 
 -Industry standardization of secure energy management and control protocols
 -Detection, prevention, and mitigation of cyber attacks and system anomalies in smart energy systems
 -Cloud/Edge security for smart energy systems
