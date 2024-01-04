@@ -37,10 +37,10 @@ Author: uiCookies.com
 # -------------------------------------------------------------------*/
 
 body {
-    font-family : 'Roboto', sans-serif;
-    font-size   : 17px;
+    font-family : sans-serif; /* 'Roboto',  */
+    font-size   : 15px;
     line-height : 1.7em;
-    color       : #353e55;
+    color       : #353e55; /* 353e55 */
     font-weight : 100;
     background  : #ffffff;
     border      : 10px solid #fff;
@@ -125,12 +125,13 @@ p.lead {
     line-height : 1.7em;
     }
 
+/*
 ul {
     margin     : 0;
     padding    : 0;
     list-style : none;
     }
-
+*/		
 
 .center {
   display: block;
@@ -391,13 +392,13 @@ button:focus,
     font-size   : 20px;
     line-height : 1.5em;
 	font-weight : bold;
-    color       : rgba(255, 104, 149, 1);
+    color       : rgba(240, 100, 100, 1); /* rgba(237, 125, 49, 1) */
     }
 
 .jumbotron .content .event-date {
     font-size     : 40px;
 	font-weight : bold;
-	color       : rgba(237, 125, 49, 1);
+	color       : rgba(100, 210, 120, 1); /* rgba(237, 125, 49, 1) */
     margin-bottom : 40px;
 	line-height : 40px;
     }
