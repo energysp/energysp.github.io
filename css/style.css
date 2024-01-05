@@ -121,7 +121,7 @@ p {
     }
 
 p.lead {
-    font-size   : 19px;
+    font-size   : 15px;
     line-height : 1.7em;
     }
 
@@ -389,7 +389,7 @@ button:focus,
     }
 
 .jumbotron .content p.lead {
-    font-size   : 20px;
+    font-size   : 25px;
     line-height : 1.5em;
 	font-weight : bold;
     color       : rgba(240, 100, 100, 1); /* rgba(237, 125, 49, 1) */
@@ -449,7 +449,7 @@ button:focus,
  * About Event
  *-----------------------------------------------*/
 .about-event .lead {
-    font-size   : 19px;
+    font-size   : 15px;
     line-height : 1.7em;
     }
 
