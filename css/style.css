@@ -541,45 +541,64 @@ button:focus,
 /* --------------------------
  * Agenda
  *---------------------------*/
-.section-ajenda .session {
-    padding       : 15px 0;
-    border-left   : 1px solid #eeeeee;
-    margin-bottom : 40px;
-	border-bottom : 1px solid #eeeeee;
-    }
 
-.section-ajenda .session time {
-    padding       : 5px 5px 0px;
-	border-top : 1px solid #eeeeee;
-    display       : inline-block;
-	line-height : 1;
-	font-weight: bold;
-	font-size      : 15px;
-    }
+ .section-ajenda .session-block {
+    padding: 15px;
+    border-left: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+}
 
-.section-ajenda .session h2 {
-    margin : 20px 0 0 20px;
-	line-height : 1;
-    }
+.section-ajenda .time-slot {
+    padding: 5px 5px;
+    border-top: 1px solid #eeeeee;
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 20px; /* Added margin for spacing */
+}
 
-.section-ajenda .session h3 {
-    margin         : 20px 0 20px 20px;
-    font-size      : 20px;
-    text-transform : uppercase;
-    }
+.section-ajenda .session h4 {
+    margin: 0 0 10px 0; /* Adjusted margins */
+    font-size: 1.2em; /* Increased font-size */
+    line-height: 1.2;
+}
 
-.section-ajenda .session h3 span {
-    font-size   : 14px;
-    display     : block;
-    line-height : 1;
-    }
-	
-	.section-ajenda .session p {
-	padding       : 5px 15px 15px;
-    margin         : 20px 0px 0px 20px;
-    font-size      : 18px;    
-	line-height : 1.2;
-    }
+.section-ajenda .session .paper-title {
+    font-size: 1.1em; /* Slightly larger to stand out */
+    font-weight: 600; /* Semi-bold for prominence */
+    margin-top: 0.5em; /* Space above the title */
+    margin-bottom: 0.2em; /* Space below the title */
+}
+
+.section-ajenda .session .authors {
+    font-size: 0.9em; /* Smaller than the paper title */
+    color: #555; /* Lighter color for differentiation */
+    margin-bottom: 1em; /* Space below authors before next title */
+}
+
+.section-ajenda .break {
+    font-size: 1em; /* Matching font size for consistency */
+    font-weight: bold; /* Bold for break titles */
+    color: #333; /* Darker color for visibility */
+    padding: 10px 0; /* Padding for spacing */
+    border-top: 1px dashed #eeeeee; /* Dashed line for breaks */
+    margin: 20px 0; /* Margin for spacing */
+    display: block; /* Ensuring it takes a full row */
+}
+
+/* If panel discussion needs to be styled differently, add rules here */
+.section-ajenda .session .panel {
+    font-weight: bold; /* Bold for panel discussions */
+    /* Add more styles if needed */
+}
+
+/* Ensure images in the agenda section are responsive */
+.section-ajenda img.conference-schedule-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Centering the image with margin */
+}
 
 /* --------------------------
  * Pricing Table
@@ -787,17 +806,17 @@ button:focus,
     text-align : center;
     top        : 65%;
     }
-
+    
 .paper-title {
-    font-size: 1.1em; /* Slightly larger than the normal text */
-    font-weight: 600; /* Semi-bold to stand out */
-    margin-top: 0.5em; /* Space above the title */
-    margin-bottom: 0.2em; /* Space below the title */
+  font-size: 18px; /* Larger font size for titles */
+  font-weight: bold; /* Making the title bold */
+  color: #333; /* Dark color for prominence */
+  margin-bottom: 2px; /* Space between title and authors */
 }
 
 .authors {
-    font-size: 0.9em; /* Slightly smaller than the normal text */
-    color: #555; /* A lighter shade of text color for subtlety */
-    margin-bottom: 1em; /* Space below the authors to separate from the next title */
+  font-size: 12px; /* Smaller font size for authors */
+  color: #555; /* Slightly lighter color than the title */
+  margin-bottom: 10px; /* Space after authors to separate from the next title */
+  font-style: italic; /* Optional: Italicize the authors for style */
 }
-
