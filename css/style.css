@@ -796,8 +796,8 @@ button:focus,
 }
 
 .authors {
-    font-size: 0.9em; /* Slightly smaller than the normal text */
+    font-size   : 0.5em; /* Slightly smaller than the normal text */
     color: #555; /* A lighter shade of text color for subtlety */
-    margin-bottom: 1em; /* Space below the authors to separate from the next title */
+    margin-bottom: 0.2em; /* Space below the authors to separate from the next title */
 }
 
