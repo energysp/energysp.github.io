@@ -789,14 +789,14 @@ button:focus,
     }
 
 .paper-title {
-    font-size: 1.1em; /* Slightly larger than the normal text */
+    font-size: 17px; /* Slightly larger than the normal text */
     font-weight: 600; /* Semi-bold to stand out */
     margin-top: 0.5em; /* Space above the title */
     margin-bottom: 0.2em; /* Space below the title */
 }
 
 .authors {
-    font-size   : 0.5em; /* Slightly smaller than the normal text */
+    font-size   : 15px; /* Slightly smaller than the normal text */
     color: #555; /* A lighter shade of text color for subtlety */
     margin-bottom: 0.2em; /* Space below the authors to separate from the next title */
 }
