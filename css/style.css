@@ -354,7 +354,7 @@ button:focus,
  *-------------------*/
 
 .jumbotron {
-    background            : url("../img/block.jpeg");
+    background            : url("../img/nhow.jpg"); /* block.jpeg */
     background-size       : cover;
     padding               : 0;
     margin                : 0;
