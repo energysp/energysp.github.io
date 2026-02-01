@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>ACM EnergySP '25</title>
+
+    <!-- favicon -->
+    <link href="favicon.png" rel=icon>
+
+    <!-- web-fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,500' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Style CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar">
+<div id="main-wrapper">
+    <!-- Page Preloader -->
+    <div id="preloader">
+        <div id="status">
+            <div class="status-mes"></div>
+        </div>
+    </div>
+
+    <header class="header">
+        <!-- Navigation -->
+        <nav class="navbar main-menu" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand page-scroll" href="#page-top"><img src="img/logo.png" alt=""></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                    <ul class="nav navbar-nav">
+                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                        <li class="hidden"><a href="#page-top"></a></li>
+                        <li><a class="page-scroll" href="#section-intro">About</a></li>
+			<li><a class="page-scroll" href="#section-ajenda">Program</a></li>
+                        <li><a class="page-scroll" href="#section-speaker">Committee</a></li>
+                        <li><a class="page-scroll" href="#section-venue">Venue</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+
+        <!-- .nav -->
+
+    </header>
+
+    <div class="jumbotron text-center">
+        <div class="content">
+		 <p class="lead">A vibrant forum for Cybersecurity and Privacy of Energy Systems</p>
+            <div class="event-date">17 Jun 2025 @ Rotterdam, Netherlands</div>
+            <h1>ACM EnergySP '25</h1>
+            <p class="lead">ACM SIGEnergy Workshop on Cybersecurity and Privacy of Energy Systems</p>
+			<form id="contactForm" class="subscribe-form form-inline" action="https://docs.google.com/forms/d/1U0ueePSLsegX6jrn6CqVOjAZErMp7UIlsEel1pTqeXU/viewform"  target="_blank">
+                        <div class="form-group">						
+			<button type="submit" class="btn btn-default btn-lg">STAY IN THE LOOP</button>
+                        </div>
+			</form>					            
+        </div>
+    </div>
+    <!-- .Jumbotron-->
+   <section id="section-ajenda" class="section-wrapper section-ajenda">
+        <div class="container">
+            
+    
+            <!-- Image at the top of the agenda -->
+            <!-- <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>Program</h1>
+                    </div>
+
+                    <img src="img/schedule.png" alt="Conference Schedule" class="img-responsive conference-schedule-image" />
+                </div>
+            </div>
+            
+            <br/> -->
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>Program (17 Jun 2025)</h1>
+                        <strong>All times are in Central European Summer Time.</strong>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row agenda">
+                <!-- Morning Sessions Column -->
+                <div class="col-md-6">
+                    <!-- Morning Sessions Block -->
+                    <div class="session-block">
+    
+                        <div class="session">
+                            <h4>Attacks and Analyses (1:30pm-3:00pm) </h4>
+                            <div class="paper">
+                                <p class="paper-title">Attacks on the Siemens S7 Protocol Using an Industrial Control System Testbed</p>
+                                <p class="authors">Nicolai Kellerer, Gustavo Sánchez, Hermenegildo Alberto, Veit Hagenmeyer, Ghada Elbez (KIT)</p>
+                            </div>
+                            <div class="paper">
+                                <p class="paper-title">Physical Impact Analysis of Cyberattacks on Inverter-based Consumer Energy Resources</p>
+                                <p class="authors">Sarah Maria Engel, Kaibin Bao, Arman A. Attar, Richard Rudolph, Veit Hagenmeyer (KIT)</p>
+                            </div>
+                            <div class="paper">
+                                <p class="paper-title">Charging Communication Sniffing and Man-in-the-Middle Attacks</p>
+                                <p class="authors">Lukas Eder, Jakob Löw, Hans-Joachim Hof (Technische Hochschule Ingolstadt)</p>
+                            </div>		
+                            <div class="paper">
+                                <p class="paper-title">Advanced Persistent Threats on Consumer Energy Resources in Decentralized Energy Systems</p>
+                                <p class="authors">Kaibin Bao (KIT); Sid Chi-Kin Chau (CSIRO); Ghada Elbez, Qi Liu, Veit Hagenmeyer (KIT)</p>
+                            </div>		
+                            <div class="paper">
+                                <p class="paper-title">Identifying key attacks on an IEEE 9-Bus System by leveraging the MITRE ATTCK ICS Matrix</p>
+                                <p class="authors">Marius Biebel, Zhao Song, Thomas Schreck, Christoph Hackl (Munich University of Applied Sciences)</p>
+                            </div>	
+                            <div class="paper">
+                                <p class="paper-title">Intelligent Data Refinement and Analysis of Real-World Cyber Attacks on SCADA Systems</p>
+                                <p class="authors">Wenlu Zhang, Ryan Ko, Naipeng Dong, Guangdong Bai, Taejun Choi (University of Queensland)</p>
+                            </div>							
+
+                        </div>
+
+			<h3 class="break">Tea break (3:00pm-3:30pm)</h3>
+
+                    </div>
+                </div>
+    
+                <!-- Second Sessions Column -->
+                <div class="col-md-6">
+		    <div class="session-block">
+                    <!-- Afternoon Sessions Block -->
+                          
+                        <div class="session">
+                            <h4>Prevention and Tools (3:30pm-5:00pm) </h4>
+                            <div class="paper">
+                                <p class="paper-title">A Forensic Analysis Framework for Industrial Control Systems</p>
+                                <p class="authors">Alexios Karagiozidis, Martin Gergeleit (University of Applied Sciences RheinMain)</p>
+                            </div>
+                            <div class="paper">
+                                <p class="paper-title">Insights and Lessons Learned from a Realistic Smart Grid Testbed for Cybersecurity Research</p>
+                                <p class="authors">Ghada Elbez, Gustavo Sánchez, Sine Canbolat, Sophie Corallo, Clemens Fruböse, Florian Lanzinger, Nicolai Kellerer, Gustav Keppler, Felix Neumeister, Bernhard Beckert, Anne Koziolek, Martina Zitterbart, Veit Hagenmeyer (KIT)</p>
+                            </div>
+                            <div class="paper">
+                                <p class="paper-title">Detecting Energy Theft Attacks on a Off-Grid Charging Station</p>
+                                <p class="authors">Anatolii Khalin, Jean-François Lalande, Romain Bourdais (CentraleSupélec)</p>
+                            </div>		
+                            <div class="paper">
+                                <p class="paper-title">Privacy-preserving Self-organization in Algorithmic-level Decomposed Predictive Scheduling</p>
+                                <p class="authors">Jörg Bremer, Sebastian Lehnhoff (University of Oldenburg)</p>
+                            </div>		
+                            <div class="paper">
+                                <p class="paper-title">Anomaly detection in distributed electrical measurements using F-tests on a distribution grid model</p>
+                                <p class="authors">Christian Dausel Jensen, Jakob Gulddahl Rasmussen, Rasmus Olsen (Aalborg University); Somesh Bhattacharya (GridData GmbH); Hans-Peter Schwefel (Aalborg University & GridData GmbH)</p>
+                            </div>	
+                            <div class="paper">
+                                <p class="paper-title">Solving Chance-Constrained AC-OPF Problem by Neural Network with Bisection-based Projection</p>
+                                <p class="authors">Enming Liang, Min Zhou, Jiawei Zhao (City University of Hong Kong); Minghua Chen (Chinese University of Hong Kong, Shenzhen & City
+University of Hong Kong)</p>
+                            </div>							
+
+                        </div>
+		    </div>	
+                </div>
+            </div>
+        </div>
+    </section>
+	
+    <section id="section-intro" class="section-wrapper about-event">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <!-- Insert EnergySP: Call for Papers Section Here -->
+                    <h2>Call for Papers</h2>
+                    <p class="lead">Cybersecurity and privacy are an important pillar of energy systems. Modernized energy systems, including smart grid, distributed/renewable energy resources, EV-charging infrastructure, smart homes, and smart buildings, have been facing a number of cybersecurity attacks. On the other hand, extensive data collection from such systems are calling for stronger privacy protection.</p>
+                    <p class="lead">ACM SIGEnergy Workshop on Cybersecurity and Privacy of Energy Systems (EnergySP) aims to establish an open forum for novel research ideas to be exchanged and shared from the energy systems and smart grid communities in the context of cybersecurity and privacy. We aim to bring together diverse experts from the cybersecurity and privacy areas as well as from those from the energy sector to establish cross-disciplinary exchanges of knowledge and insights to tackle the critical challenges in securing our energy future and providing privacy assurance to energy applications.
+                    </p>
+                    <p class="lead">We encourage researchers and experts in the field of cybersecurity energy systems to take the opportunity to use this workshop to share their work and open the discussion of new ideas on this evolving topic.</p>
+                    <h3>Topics of interest include, but are not limited to, the following:</h3>
+                    <ul>
+                        <li>Cryptographic systems, secure key management, authentication, provenance, and access control for energy systems</li>
+                        <li>Cybersecurity of distributed energy resources and IoT devices</li>
+                        <li>Security analysis of energy management systems and grid controlling systems</li>
+                        <li>Industry standardization of secure energy management and control protocols</li>
+                        <li>Detection, prevention, and mitigation of cyber attacks and system anomalies in smart energy systems</li>
+                        <li>Cloud/Edge security for smart energy systems</li>
+                        <li>Machine/Deep learning and artificial intelligence approaches for security and privacy in smart energy systems</li>
+                        <li>Threat intelligence collection and analysis for smart energy systems</li>
+                        <li>Deception technologies for smart energy systems</li>
+                        <li>Moving target defense for smart energy systems</li>
+                        <li>Digital twins and testbeds for security and privacy risk assessment of smart energy systems</li>
+                        <li>SCADA and legacy system security</li>
+                        <li>Security by design and verification tools for smart energy systems</li>
+                        <li>Cyber attack and defense case studies on smart energy systems</li>
+                        <li>Human factors aspects in cybersecurity and privacy in smart energy systems</li>
+                        <li>Privacy-preserving energy systems and applications</li>
+                        <li>Privacy protection of energy data collection and sharing</li>
+                        <li>Blockchain-based secure energy systems</li>
+			<li>Legal aspects and compliance of smart energy systems</li>
+			<li>Economics of cybersecurity in energy systems</li>
+
+                    </ul>
+
+		    <p class="lead">We also welcome position and SoK papers on the topics of energy systems cybersecurity and privacy.</p>
+			
+                    <h3>Submission format:</h3>
+                	<p class="lead">We invite papers with 4-6 pages in 9-point ACM proceedings template with double-column format (i.e., excluding references) and unlimited number of pages for appendices and references. 
+			    The submission is not anonymous. </p>
+		    	<p class="lead">Accepted papers will appear as a part of proceedings of ACM eEnergy '25 in ACM digital library.</p>
+			<!-- End of EnergySP: Call for Papers Section -->
+                    
+
+                    
+    
+                </div>
+                
+                <div class="col-md-4">
+                    <address>
+                        <h3><strong>Workshop Co-Chairs</strong></h3>                       
+                        <strong>Sid Chi-Kin Chau</strong><br>CSIRO<br>
+                        <a href="mailto:sid.chau@csiro.au">sid.chau@csiro.au</a><br>                        
+                        <strong>Daisuke Mashima</strong><br>Singapore University of Technology and Design<br>
+                        <a href="mailto:daisuke_mashima@sutd.edu.sg">daisuke_mashima@sutd.edu.sg</a><br>
+                        <strong>Ghada Elbez</strong><br>Karlsruhe Institute of Technology<br>
+                        <a href="mailto:ghada.elbez@kit.edu">ghada.elbez@kit.edu</a><br>
+                        <strong>Kaibin Bao</strong><br>Karlsruhe Institute of Technology<br>
+                        <a href="mailto:kaibin.bao@kit.edu">kaibin.bao@kit.edu</a><br>
+			<strong>Zbigniew Kalbarczyk</strong><br>University of Illinois Urbana-Champaign<br>
+                        <a href="mailto:kalbarcz@illinois.edu">kalbarcz@illinois.edu</a><br>
+                    </address>
+
+                    <div class="deadlines">
+                        <h3><strong> Deadlines </strong></h3>
+                        <ul>
+                            <li><strong>Submission:</strong> 1 April, 2025 (AoE) - Extended</li>
+                            <li><strong>Notification:</strong> 24 April, 2025</li>
+                            <li><strong>Camera-ready:</strong> 9 May, 2025</li>
+				
+                        </ul>
+                    <!-- </div>
+
+                    <div class="deadlines"> -->
+                        <!-- <p class="lead">Submission format:</p> -->
+                        <br>
+                        <h3><strong>Submission website:</strong></h3>
+                        <p class="lead"> <a href="https://energysp25.hotcrp.com/">energysp25.hotcrp.com</a> </p>
+                    </div>
+                                                       
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- .about-event -->
+
+  
+
+    <section id="section-speaker" class="section-wrapper team gray-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section-title">
+                <h1>Program Committee</h1>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <!-- First Column -->
+            <div class="col-md-4">
+              <ul class="program-committee-list">
+                <li><strong>Binbin Chen</strong> - Singapore University of Technology and Design</li>
+                <li><strong>Biplab Sikdar</strong> - National University of Singapore</li>
+                <!--<li><strong>Charalambos Konstantinou</strong> - KAUST</li> -->
+                <li><strong>Chaudhry Mujeeb Ahmed</strong> - Newcastle University</li> <!-- C -->
+                <li><strong>Daisuke Mashima</strong> - Singapore University of Technology and Design</li>
+		<li><strong>Dennis Rösch</strong> - Fraunhofer IOSB</li>
+		<li><strong>Ertem Esiner</strong> - Illinois ARCS</li>  <!-- C -->
+                <li><strong>Jan Tobias Mühlberg </strong> - Université libre de Bruxelles</li> <!-- C -->
+		<li><strong>Ghada Elbez</strong> - Karlsruhe Institute of Technology (KIT)</li>	      	      
+              </ul>
+            </div>
+            <!-- Second Column -->
+            <div class="col-md-4">
+              <ul class="program-committee-list">
+                <li><strong>György Dán</strong> - KTH Royal Institute of Technology</li> <!-- C -->			      
+                <li><strong>Hammond Pearce</strong> - University of New South Wales</li> <!-- C -->
+		<li><strong>Hao Wang</strong> - Monash University</li> <!-- C -->
+		<li><strong>Kaibin Bao</strong> - Karlsruhe Institute of Technology (KIT)</li>	
+                <li><strong>Liang He</strong> - University of Nebraska-Lincoln</li> <!-- C -->
+                <li><strong>Mohi Ahmed</strong> - Edith Cowan University</li> <!-- C -->
+                <li><strong>Neetesh Saxena</strong> - Cardiff University</li> 
+		<li><strong>Niklas Görke</strong> - FZI Research Center for Information Technology</li>
+                <li><strong>Peng Cheng</strong> - Zhejiang University</li> <!-- C --> 
+              </ul>
+            </div>
+            <!-- Third Column -->
+            <div class="col-md-4">
+              <ul class="program-committee-list"> 
+		<li><strong>Ryan Ko</strong> - University of Queensland</li> <!-- C -->     		      
+		<li><strong>S. M. Suhail Hussain</strong> - King Fahd University of Petroleum and Minerals</li>
+                <li><strong>Sid Chi-Kin Chau</strong> - CSIRO</li>	      
+                <li><strong>Sridhar Adepu</strong> - University of Bristol</li>
+                <li><strong>Subbu Sethuvenkatraman</strong> - CSIRO</li>
+                <!--<li><strong>Subhash Lakshminarayana</strong> - The University of Warwick</li>-->
+                <li><strong>Xin Lou</strong> - Singapore Institute of Technology</li> <!-- C -->
+		<li><strong>Yansong Gao</strong> - University of Western Australia</li> <!-- C -->      
+                <li><strong>Zbigniew Kalbarczyk</strong> - University of Illinois at Urbana-Champaign</li>
+		      
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- /.container -->
+      </section>
+      <!-- .team -->
+
+
+    
+    <section id="section-venue" class="section-wrapper  gray-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>17 Jun, 2025 @ Rotterdam, Netherlands -- <a href="https://energy.acm.org/conferences/eenergy/2025/conferencevenue.php">Nhow Rotterdam Hotel</a> </h1>
+
+                        <p>This workshop will be co-located with <a href="https://energy.acm.org/conferences/eenergy/2025/">ACM eEnergy '25</a>
+			</p>
+                    </div>
+                </div>
+            </div>
+            <!-- /.row-->
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h2>STAY INFORMED</h2>                       
+                    
+                    <form id="contactForm" class="subscribe-form form-inline" action="https://docs.google.com/forms/d/1U0ueePSLsegX6jrn6CqVOjAZErMp7UIlsEel1pTqeXU/viewform"  target="_blank">
+                        <div class="form-group">
+							<p>Wanna get involved? Don't miss any updates about ACM EnergySP!</p>    
+							<button type="submit" class="btn btn-primary btn-lg">Sign-up Here</button>
+                        </div>
+			</form>
+			<br/><br/><br/>	
+			    <p>Past ACM EnergySP: <a href="https://energysp.github.io/past24.html">EnergySP '24 @ Singapore</a></p>  
+                    </div>    
+                    
+                </div>
+            </div>
+
+            <div class="row">
+                <div style="text-align: center;">
+					<br><br><br>
+                    <a href="https://energy.acm.org"><img src="img/sigenergy-logo.webp" alt="Image" height="80px"></a>
+				</div>				
+            </div>
+        
+		
+        </div>
+		
+		
+    </section>
+    <!-- contact-section -->
+
+
+</div>
+<!-- #main-wrapper -->
+
+
+<!-- jquery -->
+<script src="js/jquery-2.1.4.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="js/jquery.easing.min.js"></script>
+
+<!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+
+<!--<script src="js/one-page-nav.js"></script>-->
+<script src="js/scripts.js"></script>
+</body>
+</html>
