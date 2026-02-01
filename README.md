@@ -2,11 +2,6 @@
 
 
 Co-chairs:
-- Sid Chi-Kin Chau (CSIRO) sid.chau@csiro.au
-- Liang He (CU-Denver) liang.he@ucdenver.edu
-- Daisuke Mashima (Illinois ARCS & NUS) daisuke.m@iarcs-create.edu.sg
-- Neetesh Saxena (Cardiff University) saxenan4@cardiff.ac.uk
-- David Yau (SUTD) david_yau@sutd.edu.sg
 
 
 Deadlines:
